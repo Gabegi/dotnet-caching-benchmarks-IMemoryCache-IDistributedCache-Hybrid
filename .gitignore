@@ -7,6 +7,43 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
+# Visual Studio and Project Specific Files
+##########################################
+## Ignore Visual Studio temporary files, user files, and options
+
+# Visual Studio 2015/2017/2019/2022 user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Tt]emp/
+*.log
+*.pdb
+*.orig
+*.opd
+*.dll
+*.exe
+
+# Git
+.git
+.gitignore
+
+# Packages
+# Ignore NuGet Packages
+**/packages/*
+# NuGet generated project assets file
+project.assets.json
+
+# Tooling
+.vs/ # Ignore the .vs folder, which contains all user-specific settings
+.idea/ # Ignore JetBrains Rider/ReSharper settings
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
