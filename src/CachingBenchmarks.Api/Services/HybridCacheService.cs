@@ -29,12 +29,10 @@ public class HybridCacheService : ICacheService
 
     public async Task SetAsync<T>(string key, T value, TimeSpan? expiration = null, CancellationToken cancellationToken = default)
     {
-        var options = new HybridCacheEntryOptions();
-
-        if (expiration.HasValue)
+        var options = new HybridCacheEntryOptions
         {
-            options.Expiration = expiration.Value;
-        }
+            Expiration = expiration
+        };
 
         await _cache.SetAsync(key, value, options, cancellationToken: cancellationToken);
     }
