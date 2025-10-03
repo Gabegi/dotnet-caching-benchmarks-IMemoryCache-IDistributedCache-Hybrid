@@ -1,6 +1,0 @@
-@CachingBenchmarks.Api_HostAddress = http://localhost:5245
-
-GET {{CachingBenchmarks.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

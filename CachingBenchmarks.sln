@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingBenchmarks.Api", "CachingBenchmarks.Api\CachingBenchmarks.Api.csproj", "{AA9A7C2F-DCF0-4B43-ABFB-82A59B1EFE28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingBenchmarks.Api", "src\CachingBenchmarks.Api\CachingBenchmarks.Api.csproj", "{AA9A7C2F-DCF0-4B43-ABFB-82A59B1EFE28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
